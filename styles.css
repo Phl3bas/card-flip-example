@@ -7,7 +7,9 @@
 img{
 	height:200px;
 	width:200px;
-	box-shadow: 5px 3px 5px rgba(0, 0, 0, 0.4);
+
+
+
 
 }
 
@@ -24,6 +26,7 @@ img{
 	width: 200px;
 	height: 200px;
 	background-color: black;
+
 }
 
 /* flip speed goes here */
@@ -37,7 +40,6 @@ img{
 /* hide back of pane during swap */
 .front, .back {
 	backface-visibility: hidden;
-
 	position: absolute;
 	top: 0;
 	left: 0;
